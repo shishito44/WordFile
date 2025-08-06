@@ -7,9 +7,18 @@
 
 GeminiAPIキーを取得し、そのURLを使って生成AIGenminiの機能を使える
 
-Geminetを使ってGeminiAPIを使うプログラムを簡易に書くことができる
+Geminetを使ってGeminiAPIを使うプログラムを簡易に書くことができる（Nugetを使ってインストールする）
 Geminetを検索⇒ソースコード"GEMINI_API_KEY"にURLを入力⇒
 Environment.GetEnvironmentVariableの記述を削除⇒実行するとContentsに書いた内容の返信をAIがする
 
 ユーザーシークレットを使って使いたい非公開情報をソースコードに記述しないことができる
+{
+  "Sercrets": {
+    "Message": "GEMINI＿API＿KEY"
+  }
+}
 VisualStudioのプロジェクトを右クリック⇒ユーザーシークレットの管理⇒sercrets.jsonのタブが現れるのでこの中にAPIキーを入れる
+
+・Resharper
+.NET開発者向けのVisualStudio拡張機能
+型、ファイル等の検索を素早く行うことができることやコードのリファクタリング、補完ツールなど開発者に役立つ様々な機能が実装されている。
